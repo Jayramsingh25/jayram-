@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the saved model pipeline
-model = joblib.load('traffic_model.pkl')
+model = joblib.load('traffic_model (2).pkl')
 
 st.set_page_config(page_title="Traffic AI", page_icon="🚦")
 st.title("🚦 AI Traffic Signal Optimization")
